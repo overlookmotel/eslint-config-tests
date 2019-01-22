@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2
+
+* Tests
+* Fix: Changelog
+
 ## 1.0.1
 
 * Erroneous empty release
