@@ -15,8 +15,6 @@ chai.config.includeStack = true;
 
 // Tests
 
-describe('Tests', function() {
-	it.skip('all', function() {
-		expect(eslintConfigTests).to.be.ok;
-	});
+it('Exports an object', function() {
+	expect(eslintConfigTests).to.be.an('object');
 });
