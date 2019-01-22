@@ -9,7 +9,8 @@
 
 ## Usage
 
-This module is under development and not ready for use yet.
+* Include `@overlookmotel/eslint-config-tests` as a dev dependency
+* Add to `.eslintrc`: `"extends": "@overlookmotel/eslint-config-tests"`
 
 ## Tests
 
