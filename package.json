@@ -1,0 +1,52 @@
+{
+  "name": "@overlookmotel/eslint-config-tests",
+  "version": "0.0.0",
+  "description": "@overlookmotel's ESLint config for tests with mocha and chai",
+  "main": "index.js",
+  "author": {
+    "name": "Overlook Motel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overlookmotel/eslint-config-tests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/overlookmotel/eslint-config-tests/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@overlookmotel/eslint-config": "^1.0.0",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.2",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.12.1",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "overlookmotel",
+    "test",
+    "tests",
+    "mocha",
+    "chai"
+  ],
+  "scripts": {
+    "test": "npm run lint && npm run test-main",
+    "lint": "eslint '**/*.js' --ext .js",
+    "test-main": "mocha --check-leaks --colors -t 1000 -R spec 'test/**/*.test.js'",
+    "cover": "npm run cover-main && rm -rf coverage",
+    "coveralls": "npm run cover-main && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
+    "cover-main": "cross-env COVERAGE=true istanbul cover _mocha --report lcovonly -- -t 1000 -R spec 'test/**/*.test.js'",
+    "travis": "if [ $COVERAGE ]; then npm run coveralls; else npm test; fi"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT"
+}
