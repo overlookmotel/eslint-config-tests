@@ -9,8 +9,14 @@
 
 ## Usage
 
-* Include `@overlookmotel/eslint-config-tests` as a dev dependency
-* Add to `.eslintrc`: `"extends": "@overlookmotel/eslint-config-tests"`
+Add dev dependencies in `package.json`:
+
+* `@overlookmotel/eslint-config-tests`
+* `eslint-plugin-chai-friendly`
+
+Add to `.eslintrc`: `"extends": "@overlookmotel/eslint-config-tests"`
+
+NB Does not extend the base config [@overlookmotel/eslint-config](https://www.npmjs.com/package/@overlookmotel/eslint-config) so use `"extends": "@overlookmotel/eslint-config"` too in `.eslintrc`.
 
 ## Tests
 
@@ -31,3 +37,4 @@ Pull requests are very welcome. Please:
 * ensure all tests pass before submitting PR
 * add tests for new features
 * document new functionality/API additions in README
+* do not add an entry to Changelog (Changelog is created when cutting releases)
