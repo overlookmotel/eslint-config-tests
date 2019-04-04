@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.4
+
+* Update dependencies
+* Test: Fix lint error [refactor]
+
 ## 1.0.3
 
 * README update
