@@ -16,7 +16,7 @@
   "dependencies": {
   },
   "peerDependencies": {
-    "eslint": "^5.12.1",
+    "eslint": "^5.16.0",
     "eslint-plugin-chai-friendly": "^0.4.1"
   },
   "devDependencies": {
@@ -24,7 +24,7 @@
     "chai": "^4.2.0",
     "coveralls": "^3.0.2",
     "cross-env": "^5.2.0",
-    "eslint": "^5.12.1",
+    "eslint": "^5.16.0",
     "eslint-plugin-chai-friendly": "^0.4.1",
     "eslint-plugin-eslint-comments": "^3.1.0",
     "istanbul": "^0.4.5",
