@@ -12,6 +12,7 @@
 Add dev dependencies in `package.json`:
 
 * `@overlookmotel/eslint-config-tests`
+* `eslint`
 * `eslint-plugin-chai-friendly`
 
 Add to `.eslintrc`: `"extends": "@overlookmotel/eslint-config-tests"`
