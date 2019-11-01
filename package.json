@@ -1,6 +1,6 @@
 {
   "name": "@overlookmotel/eslint-config-tests",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "@overlookmotel's ESLint config for tests with mocha and chai",
   "main": "index.js",
   "author": {

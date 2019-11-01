@@ -1,5 +1,15 @@
 # Changelog
 
+## 3.0.0
+
+Breaking changes:
+
+* Update ESLint peer dependencies
+
+Dev:
+
+* Update dev dependencies
+
 ## 2.1.0
 
 Features:
