@@ -1,10 +1,10 @@
 test
 coverage
+
 .editorconfig
-.gitattributes
-.gitignore
 .eslintignore
 .eslintrc.js
+.gitattributes
+.gitignore
 .npmignore
 .travis.yml
-npm-debug.log
