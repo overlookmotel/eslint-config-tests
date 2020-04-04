@@ -5,6 +5,7 @@
 'use strict';
 
 // Exports
+
 module.exports = {
 	env: {
 		mocha: true
