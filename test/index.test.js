@@ -8,7 +8,7 @@
 // Modules
 const chai = require('chai'),
 	{expect} = chai,
-	eslintConfigTests = require('../index');
+	eslintConfigTests = require('../index.js');
 
 // Init
 chai.config.includeStack = true;
