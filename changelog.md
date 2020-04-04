@@ -1,5 +1,35 @@
 # Changelog
 
+## 4.0.0
+
+Breaking changes:
+
+* Drop support for Node v8
+
+Dependencies:
+
+* Update ESLint peer dependencies
+
+Refactor:
+
+* Import file extensions
+
+No code:
+
+* Header code comments
+
+Dev:
+
+* CI run tests on Node v13
+* Update dev dependencies
+* ESLint ignore coverage dir
+* Tab width 2 in `.editorconfig`
+
+Docs:
+
+* Versioning policy
+* Update license year
+
 ## 3.0.0
 
 Breaking changes:
