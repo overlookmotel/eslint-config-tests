@@ -3,6 +3,7 @@
   "version": "4.0.1",
   "description": "@overlookmotel's ESLint config for tests with mocha and chai",
   "main": "index.js",
+  "files": [],
   "author": {
     "name": "Overlook Motel"
   },
