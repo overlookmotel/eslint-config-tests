@@ -1,5 +1,31 @@
 # Changelog
 
+## 5.0.0
+
+Features:
+
+* Drop support for Node v10
+
+Dependencies:
+
+* Update peer dependencies
+
+No code:
+
+* Linting fixes
+
+Dev:
+
+* Use NPM v7 for development
+* Use Github Actions for CI
+* Update dev dependencies
+
+Docs:
+
+* Remove Greenkeeper badge
+* Update license year
+* Remove license indentation
+
 ## 4.1.0
 
 Features:
