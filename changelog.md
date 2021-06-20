@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.0.1
+
+Docs:
+
+* README update
+
 ## 5.0.0
 
 Features:
