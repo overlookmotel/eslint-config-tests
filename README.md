@@ -2,7 +2,6 @@
 [![Build Status](https://img.shields.io/travis/overlookmotel/eslint-config-tests/master.svg)](http://travis-ci.org/overlookmotel/eslint-config-tests)
 [![Dependency Status](https://img.shields.io/david/overlookmotel/eslint-config-tests.svg)](https://david-dm.org/overlookmotel/eslint-config-tests)
 [![Dev dependency Status](https://img.shields.io/david/dev/overlookmotel/eslint-config-tests.svg)](https://david-dm.org/overlookmotel/eslint-config-tests)
-[![Greenkeeper badge](https://badges.greenkeeper.io/overlookmotel/eslint-config-tests.svg)](https://greenkeeper.io/)
 [![Coverage Status](https://img.shields.io/coveralls/overlookmotel/eslint-config-tests/master.svg)](https://coveralls.io/r/overlookmotel/eslint-config-tests)
 
 # @overlookmotel's ESLint config for tests with mocha and chai
