@@ -20,7 +20,7 @@
     "eslint-plugin-chai-friendly": "^0.7.1"
   },
   "devDependencies": {
-    "@overlookmotel/eslint-config": "^9.0.4",
+    "@overlookmotel/eslint-config": "^9.0.7",
     "@overlookmotel/eslint-config-node": "^3.0.0",
     "chai": "^4.3.4",
     "eslint": "^7.29.0",
