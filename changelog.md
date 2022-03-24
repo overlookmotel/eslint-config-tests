@@ -1,5 +1,21 @@
 # Changelog
 
+## 6.0.0
+
+Breaking changes:
+
+* Update to ESLint 8
+
+Dev:
+
+* Run tests on CI on Node v17
+* Clean up after `cover` NPM script even if fails
+* Update dev dependencies
+
+Docs:
+
+* Update license year
+
 ## 5.0.1
 
 Docs:
