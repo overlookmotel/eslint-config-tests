@@ -26,7 +26,8 @@
     "eslint": "^7.29.0",
     "eslint-plugin-chai-friendly": "^0.7.1",
     "istanbul": "^0.4.5",
-    "mocha": "^9.0.1"
+    "mocha": "^9.0.1",
+    "npm-run-all": "^4.1.5"
   },
   "keywords": [
     "eslint",
@@ -43,8 +44,9 @@
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "test-main": "mocha --check-leaks --colors -t 1000 -R spec 'test/**/*.test.js'",
-    "cover": "npm run cover-main && rm -rf coverage",
-    "cover-main": "istanbul cover _mocha --report lcovonly -- -t 1000 -R spec 'test/**/*.test.js'"
+    "cover": "npm-run-all -c cover-main cover-cleanup",
+    "cover-main": "istanbul cover _mocha --report lcovonly -- -t 1000 -R spec 'test/**/*.test.js'",
+    "cover-cleanup": "rm -rf coverage"
   },
   "engines": {
     "node": ">=12"
