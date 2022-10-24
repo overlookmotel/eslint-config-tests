@@ -16,14 +16,14 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "eslint": "^8.11.0",
+    "eslint": "^8.26.0",
     "eslint-plugin-chai-friendly": "^0.7.2"
   },
   "devDependencies": {
     "@overlookmotel/eslint-config": "^10.0.1",
     "@overlookmotel/eslint-config-node": "^4.0.2",
     "chai": "^4.3.6",
-    "eslint": "^8.11.0",
+    "eslint": "^8.26.0",
     "eslint-plugin-chai-friendly": "^0.7.2",
     "istanbul": "^0.4.5",
     "mocha": "^9.2.2",
